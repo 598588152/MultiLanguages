@@ -4,7 +4,6 @@ apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
-
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 30
@@ -13,7 +12,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
-
     buildTypes {
         release {
             minifyEnabled false
