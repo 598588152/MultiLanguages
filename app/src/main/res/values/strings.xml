@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MultiLanguages</string>
+    <string name="current_language">跟随系统</string>
 </resources>
